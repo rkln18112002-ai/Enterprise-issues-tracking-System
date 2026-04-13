@@ -1,0 +1,14 @@
+unmanaged implementation in class zbp_i_issue_22cs086 unique;
+
+define behavior for ZI_ISSUE_22CS086
+lock master
+authorization master ( instance )
+{
+
+  create;
+  update;
+  delete;
+
+  field ( readonly ) issue_id;
+
+}
